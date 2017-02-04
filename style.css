@@ -1,0 +1,30 @@
+
+.flex-container {
+    
+    display: flex;
+
+    /*flex-direction: row-reverse;*/
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+   /* flex-wrap: wrap-reverse;*/
+   /*justify-content: center;*/
+   /*justify-content: space-between;*/
+  justify-content: space-around;
+  /*align-items: center;*/
+  /*align-items: flex-start;*/
+  /*align-items: baseline;*/
+  /*align-content: space-around;*/
+  align-items: center;
+}
+
+.flex-item {
+
+    background-color: red;
+    width: 100px;
+    height: 100px;
+   /* margin: 10px;*/
+}
+
+
+
