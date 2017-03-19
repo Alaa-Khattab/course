@@ -3,18 +3,50 @@
 
 <head>
     <title>Font Syle</title>
-    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet"> -->
     <style type="text/css">
-    p {
+    .bold {
+        font-weight: bold;
         font-size: 200%;
-        font-family: 'Barrio', cursive;
+        /*font-family: 'Barrio', cursive;*/
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: green;
+    }
+
+    p.capitalize {
+        text-transform: capitalize;
+        text-align: right;
+    }
+
+    div {
+        width: 800px;
+        //height: 200px;
+        background-color: pink;
+    }
+
+    .justifed {
+        text-align: justify;
+    }
+    a:visited{
+      color: #FFAA00;
     }
     </style>
 </head>
 
 <body>
-    <h1 style="font-family: 'Sansita', sans-serif ">Header</h1>
-    <p>This is some Text!</p>
+    <div>
+        <p class="bold capitalize">This is some Text!</p>
+        <p class="justifed">Lorem ipsum dolor sit amet, quidam atomorum necessitatibus mel ei, officiis postulant conclusionemque no sit. Feugiat bonorum comprehensam eu vis. Ius honestatis vituperatoribus at, tation saperet necessitatibus cum eu. Ullum reprehendunt sea eu. Eam possim lucilius philosophia et, volumus inciderint ad duo, mel illum congue et. Nibh quaerendum mel cu. Audiam similique consectetuer no pri, cum aliquam eleifend consequuntur an. Duo noluisse officiis pertinax ad. Ius no persius blandit eleifend. Nec eripuit apeirian et. Sit eu veritus singulis. Cu amet delectus mel, eius laboramus eos ea. Vis no facilis consequuntur, dolore delenit an eam. Ancillae repudiandae duo cu. Ut eos ludus denique omittantur, pri eu assum tincidunt. Eu qui fierent scaevola lobortis, vis possim laboramus tab</p>
+    </div>
+    <a href="http://www.google.com">GOOGLE in the same tabe</a><br><br>
+    <a href="http://www.google.com" target="_blank">GOOGLE in new tab</a>
 </body>
 
 </html>
