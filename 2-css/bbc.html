@@ -4,42 +4,68 @@
 <head>
     <title>Technology - BBC News</title>
     <style type="text/css">
-    #topbar {
-        width: 1000px;
-        margin: 0 auto;
-        height: 40px;
-    }
-    
-    body {
-        margin: 0;
-        padding: 0;
-    }
-    
-    #logo {
-        margin-top: 8px;
-        width: 100px;
-        float: left;
-        margin-right: 8px;
-    }
-    
-    .topbar-section {
-        float: left;
-        border-left: 1px #cccccc solid;
-        height: 100%;
-    }
-    
-    #signin-image {
-        width: 25px;
-        float: left;
-        margin: 11px 15px;
-    }
-    
-    #singin-text {
-        font-weight: bold;
-        font-size: 90%;
-        position: relative;
-        top: 15px;
-    }
+        #topbar {
+            width: 1000px;
+            margin: 0 auto;
+            height: 40px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #logo {
+            margin-top: 8px;
+            width: 100px;
+            float: left;
+            margin-right: 8px;
+        }
+
+        .topbar-section {
+            float: left;
+            border-left: 1px #cccccc solid;
+            height: 100%;
+        }
+
+        #signin-image {
+            width: 25px;
+            float: left;
+            margin: 11px 15px;
+        }
+
+        #singin-text {
+            font-weight: bold;
+            font-size: 90%;
+            position: relative;
+            top: 14px;
+            margin: 11px 15px;
+        }
+
+        .topbar-menu {
+            font-weight: bold;
+            font-size: 90%;
+            padding: 15px 15px 0px 11px;
+            height: 24px
+        }
+
+        #more-image {
+            float: right;
+            padding: 5px 0px 0px 40px;
+            width: 10px;
+            height: 10px;
+            position: relative;
+        }
+
+        #search-input {
+            font-size:bold;
+            width: 120px;
+            height: 15px;
+            background-color: #E4E4E4;
+            padding: 5px;
+            margin: 10px;
+            border: none;
+        }
     </style>
 </head>
 
@@ -50,7 +76,35 @@
             <img id="signin-image" src="../images/signin.png">
             <span id="singin-text">Sign In</span>
         </div>
+        <div class="topbar-section topbar-menu">
+            News
+        </div>
+        <div class="topbar-section topbar-menu">
+            Sport
+        </div>
+        <div class="topbar-section topbar-menu">
+            Weather
+        </div>
+        <div class="topbar-section topbar-menu">
+            Shop
+        </div>
+        <div class="topbar-section topbar-menu">
+            Earth
+        </div>
+        <div class="topbar-section topbar-menu">
+            Travel
+        </div>
+        <div class="topbar-section topbar-menu">
+            More
+            <img id="more-image" src="../images/more.png">
+        </div>
+
+        <div class="topbar-section ">
+            <input id="search-input" type="text" value="Search"></input>
+        </div>
+
     </div>
+
 </body>
 
 </html>
